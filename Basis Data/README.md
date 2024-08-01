@@ -30,5 +30,5 @@
 - 29: []()
 - 30: [Rizki](https://github.com/ItzCandra23/XI-RPL-3/blob/main/Basis%20Data/Rizki.xlsx)
 - 31: []()
-- 32: []()
+- 32: [Titis Candra Nathan](https://github.com/ItzCandra23/XI-RPL-3/blob/main/Basis%20Data/Candra.xlsx)
 - 33: [Vallentino](https://github.com/ItzCandra23/XI-RPL-3/blob/main/Basis%20Data/Normalisasi_Vallentino.xlsx)
