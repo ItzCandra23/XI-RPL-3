@@ -28,7 +28,7 @@
 - 27: [Radhittiya](https://github.com/ItzCandra23/XI-RPL-3/blob/main/Basis%20Data/Radhittiya.xlsx)
 - 28: [Rayhan](https://github.com/RayhanAk23/XI-RPL-3/blob/main/Basis%20Data/28_Rayhan_Normalisasi.xlsx)
 - 29: []()
-- 30: [Rizki](https://github.com/ItzCandra23/XI-RPL-3/blob/main/Basis%20Data/Rizki.xlsx)
+- 30: [Rizqi](https://github.com/ItzCandra23/XI-RPL-3/blob/main/Basis%20Data/Rizqi.xlsx)
 - 31: []()
 - 32: [Titis Candra Nathan](https://github.com/ItzCandra23/XI-RPL-3/blob/main/Basis%20Data/Candra.xlsx)
 - 33: [Vallentino](https://github.com/ItzCandra23/XI-RPL-3/blob/main/Basis%20Data/Normalisasi_Vallentino.xlsx)
