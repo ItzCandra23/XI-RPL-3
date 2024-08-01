@@ -18,7 +18,7 @@
 - 17: []()
 - 18: []()
 - 19: []()
-- 20: [Farrel](https://github.com/FarrelHakim/Produktif/blob/main/Normalisasi_Farrel%20(1).xlsx)
+- 20: [Farrel Hakim](https://github.com/FarrelHakim/Produktif/blob/main/Normalisasi_Farrel%20(1).xlsx)
 - 21: [Nawfal](https://github.com/ItzCandra23/XI-RPL-3/blob/main/Basis%20Data/Nawfal.xlsx)
 - 22: [Naila keysa majid](https://github.com/Nailamajid/Produktif/blob/main/normalisasi%20data.xlsx)
 - 23: []()
