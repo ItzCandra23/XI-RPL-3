@@ -21,7 +21,7 @@
 - 20: [Farrel Hakim](https://github.com/FarrelHakim/Produktif/blob/main/Normalisasi_Farrel%20(1).xlsx)
 - 21: [Nawfal](https://github.com/ItzCandra23/XI-RPL-3/blob/main/Basis%20Data/Nawfal.xlsx)
 - 22: [Naila keysa majid](https://github.com/Nailamajid/Produktif/blob/main/normalisasi%20data.xlsx)
-- 23: []()
+- 23: [Nicky](https://github.com/ItzCandra23/XI-RPL-3/blob/main/Basis%20Data/Nicky.xlsx)
 - 24: []()
 - 25: [Noval](https://github.com/ItzCandra23/XI-RPL-3/blob/main/Basis%20Data/Noval(25).xlsx)
 - 26: [Puput Dumai](https://sg.docworkspace.com/d/sIPmBtf65Af-prrUG?sa=cl)
