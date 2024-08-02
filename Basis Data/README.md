@@ -17,7 +17,7 @@
 - 16: [M Nazwa Arya](https://github.com/alexarnoldrodrygo1426/Produktif/tree/main/BasisData)
 - 17: []()
 - 18: []()
-- 19: []()
+- 19: [Darrun Naim](https://sg.docworkspace.com/d/sIOKa5Ppd5uiwtQY?sa=cl)
 - 20: [Farrel Hakim](https://github.com/FarrelHakim/Produktif/blob/main/Normalisasi_Farrel%20(1).xlsx)
 - 21: [Nawfal](https://github.com/ItzCandra23/XI-RPL-3/blob/main/Basis%20Data/Nawfal.xlsx)
 - 22: [Naila keysa majid](https://github.com/Nailamajid/Produktif/blob/main/normalisasi%20data.xlsx)
