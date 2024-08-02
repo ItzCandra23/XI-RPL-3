@@ -32,3 +32,15 @@
 - 31: []()
 - 32: [Titis Candra Nathan](https://github.com/ItzCandra23/XI-RPL-3/blob/main/Basis%20Data/Candra.xlsx)
 - 33: [Vallentino](https://github.com/ItzCandra23/XI-RPL-3/blob/main/Basis%20Data/Normalisasi_Vallentino.xlsx)
+- 34: [Ola](https://sg.docworkspace.com/d/sIEyEmv_eAZTNsLUG)
+- 35: [Zarah Awal M](https://sg.docworkspace.com/d/sIOTNk7jbAeLMsLUG)
+
+
+
+
+
+
+
+
+
+
