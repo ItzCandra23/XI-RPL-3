@@ -1,5 +1,5 @@
 # List Basis Data X-RPL'3
-- 1: []()
+- 1: [Adnan](https://github.com/ItzCandra23/XI-RPL-3/blob/main/Basis%20Data/normalisasi%20adnan.xlsx)
 - 2: []()
 - 3: [Amel Isna](https://github.com/ItzCandra23/XI-RPL-3/blob/main/Basis%20Data/Amel.xlsx)
 - 4: [Arka](https://github.com/ItzCandra23/XI-RPL-3/blob/main/Basis%20Data/Arka.xlsx)
