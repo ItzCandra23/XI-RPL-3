@@ -1,6 +1,6 @@
 # List Basis Data X-RPL'3
 - 1: [Adnan](https://github.com/ItzCandra23/XI-RPL-3/blob/main/Basis%20Data/normalisasi%20adnan.xlsx)
-- 2: []()
+- 2: [Akbar](https://github.com/ItzCandra23/XI-RPL-3/blob/main/Basis%20Data/akbar.xlsx)
 - 3: [Amel Isna](https://github.com/ItzCandra23/XI-RPL-3/blob/main/Basis%20Data/Amel.xlsx)
 - 4: [Arka](https://github.com/ItzCandra23/XI-RPL-3/blob/main/Basis%20Data/Arka.xlsx)
 - 5: [Arya Adly](https://github.com/ItzCandra23/XI-RPL-3/blob/main/Basis%20Data/AryaAdly(5)XI-RPL3-WPS%20Office.xlsx)
