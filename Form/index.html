@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer Register</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: "Roboto", Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            width: 90%;
+            margin-left: 5%;
+            margin-top: 70px;
+            margin-bottom: 100px;
+        }
+
+        .text-area {
+            margin-top: 120px;
+            margin-bottom: 50px;
+            max-width: 500px;
+        }
+
+        .text-area h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: xx-large;
+            font-weight: lighter;
+            letter-spacing: 4px;
+        }
+
+        .text-area p {
+            margin-left: 14px;
+            font-style: italic;
+            margin-top: 40px;
+            letter-spacing: 2px;
+        }
+
+        form {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 460px;
+            padding: 30px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 8px;
+            box-shadow: 4px 16px 18px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: inline-block;
+            margin-bottom: 8px;
+        }
+
+        input:required + label::after {
+            content: " *";
+            color: rgb(127, 127, 127);
+        }
+
+        input[type="text"], 
+        input[type="email"], 
+        input[type="password"], 
+        input[type="date"], 
+        input[type="number"], 
+        select, button {
+            width: 92%;
+            padding: 10px 4%;
+            margin-bottom: 18px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="number"]::-webkit-outer-spin-button,
+        input[type="number"]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        select, button {
+            width: 100%;
+        }
+
+        input:focus {
+            outline-style: none;
+            border: 1px solid #0080ff;
+        }
+
+        .personal-name {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .personal-name div {
+            width: 48%;
+        }
+
+        .flex-label {
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            margin-bottom: 18px;
+            user-select: none;
+            -webkit-user-select: none; /* Safari/Chrome */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* IE/Edge */
+        }
+
+        input[type="checkbox"],
+        input[type="radio"] {
+            display: none;
+        }
+
+        input[type="checkbox"]:checked + label,
+        input[type="radio"]:checked + label {
+            transition: 0.2s;
+            background-color: #e3f9ff;
+            border-color: #00a2ff;
+        }
+
+        button {
+            color: white;
+            letter-spacing: 4px;
+            font-weight: bold;
+            text-transform: uppercase;
+            background-color: #00a2ff;
+            border-radius: 32px;
+        }
+
+        button:hover {
+            transition: 0.5s;
+            background-color: #65c7ff;
+        }
+        button:focus {
+            background-color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-area">
+            <h1>Let's Get Started! Find ur Client more Faster!</h1>
+            <p>Ayo jadi Pro di Freelancer, disini kamu bisa mendapatkan banyak client dengan cepat menggunakan platform Pro Freelance! Buruan Daftar Sekarang!</p>
+            <p>Disini kami menyediakan penyiaran dan pembuatan Ads dapatkan harga murah, Ada AI nya juga loh. Buruan Sebelum Kehabisan!</p>
+        </div>
+        <form action="/result.html">
+            <div class="personal-name">
+                <div>
+                    <label for="firstname">First Name</label>
+                    <input type="text" id="firstname" name="firstname" required>
+                </div>
+
+                <div>
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname" name="lastname">
+                </div>
+            </div>
+
+            <label for="username">Username</label>
+            <input type="text" pattern="[A-Za-z0-9]+" title="Hanya bisa menggunakan pattern [A-Za-z0-9]" id="username" maxlength="24" minlength="8" name="username" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="born-date">Born Date</label>
+            <input type="date" id="born-date" name="born-date" required>
+            
+            <label for="gender">Gender</label>
+            <div class="gender">
+                <input type="radio" id="male" name="gender" value="male" required checked>
+                <label class="flex-label" for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label class="flex-label" for="female">Female</label>
+            </div>
+
+            <label for="skills">Skills</label>
+            <div class="skills">
+                <input type="checkbox" class="limited-checkbox" id="html" name="skills" value="HTML">
+                <label class="flex-label" for="html">HTML</label>
+                <input type="checkbox" class="limited-checkbox" id="css" name="skills" value="CSS">
+                <label class="flex-label" for="css">CSS</label>
+                <input type="checkbox" class="limited-checkbox" id="cpp" name="skills" value="C++">
+                <label class="flex-label" for="cpp">C++</label>
+                <input type="checkbox" class="limited-checkbox" id="javascript" name="skills" value="Javascript">
+                <label class="flex-label" for="javascript">Javascript</label>
+                <input type="checkbox" class="limited-checkbox" id="rust" name="skills" value="Rust">
+                <label class="flex-label" for="rust">Rust</label>
+                <input type="checkbox" class="limited-checkbox" id="php" name="skills" value="PHP">
+                <label class="flex-label" for="php">PHP</label>
+            </div>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="" disabled selected>Select your country</option>
+                <option value="indonesia">Indonesia</option>
+                <option value="malaysia">Malaysia</option>
+                <option value="singapore">Singapore</option>
+                <option value="thailand">Thailand</option>
+            </select>
+
+            <label for="phone">Phone Number:</label>
+            <input type="number" id="phone" name="phone" pattern="/d{9,}" required>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <script>
+        const phoneElement = document.getElementById("phone");
+
+        phoneElement.addEventListener("keyup", (ev) => {
+            let value = ev.target.value;
+            if (value.length > 13) document.getElementById("phone").value = value.substring(0, 14);
+        });   
+
+        const maxCheckboxes = 3;
+        const checkboxes = document.querySelectorAll('.limited-checkbox');
+
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', function() {
+                const checkedCount = document.querySelectorAll('.limited-checkbox:checked').length;
+                if (checkedCount > maxCheckboxes) {
+                    this.checked = false;
+                    alert(`You can only select up to ${maxCheckboxes} options.`);
+                }
+            });
+        });
+
+        const maxDate = new Date();
+        document.getElementById("born-date").setAttribute("max", `${maxDate.getFullYear()}-${(maxDate.getMonth()+1).toString().padStart(2, "0")}-${maxDate.getDate().toString().padStart(2, "0")}`);
+    </script>
+</body>
+</html>

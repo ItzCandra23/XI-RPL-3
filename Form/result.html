@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: "Roboto", Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            margin: 100px auto;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 460px;
+            padding: 30px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 12px;
+            box-shadow: 4px 16px 18px rgba(0, 0, 0, 0.1);
+        }
+
+        .label {
+            margin-top: 6px;
+            margin-bottom: 2px;
+        }
+
+        .value {
+            font-weight: bold;
+            margin-left: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="container">
+        <h1>PROFILE</h1>
+        <div class="label">Full Name:</div>
+        <div class="value" id="full-name">Not Found</div>
+        <div class="label">Username:</div>
+        <div class="value" id="username">Not Found</div>
+        <div class="label">Email:</div>
+        <div class="value" id="email">Not Found</div>
+        <div class="label">Password:</div>
+        <div class="value" id="password">Not Found</div>
+        <div class="label">Born Date:</div>
+        <div class="value" id="born">Not Found</div>
+        <div class="label">Age:</div>
+        <div class="value" id="age">Not Found</div>
+        <div class="label">Skills:</div>
+        <div class="value" id="skills">Not Found</div>
+        <div class="label">Country:</div>
+        <div class="value" id="country">Not Found</div>
+        <div class="label">Phone:</div>
+        <div class="value" id="phone">Not Found</div>
+    </div>
+    <script>
+        const fullname = document.getElementById('full-name');
+        const username = document.getElementById('username');
+        const email = document.getElementById('email');
+        const password = document.getElementById('password');
+        const born = document.getElementById('born');
+        const age = document.getElementById('age');
+        const skills = document.getElementById('skills');
+        const country = document.getElementById('country');
+        const phone = document.getElementById('phone');
+
+        const container = document.getElementById("container");
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+
+        function calculateAge(utc) {
+            const birthdate = new Date(utc);
+            const today = new Date();
+            let age = today.getFullYear() - birthdate.getFullYear();
+            const monthDiff = today.getMonth() - birthdate.getMonth();
+            if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthdate.getDate())) {
+                age--;
+            }
+
+            return age;
+        }
+
+        fullname.innerText = (urlParams.get("firstname") || "") + " " + (urlParams.get("lastname") || "");
+        username.innerText = urlParams.get("username") || "Not Found";
+        email.innerText = urlParams.get("email") || "Not Found";
+        password.innerText = urlParams.get("password") || "Not Found";
+        born.innerText = new Date(urlParams.get("born-date")).toLocaleDateString("id-ID", {
+            dateStyle: "long",
+        }) || "Not Found";
+        age.innerText = calculateAge(urlParams.get("born-date"));
+        skills.innerText = (urlParams.getAll("skills") || ["Not Found"]).join(", ");
+        country.innerText = urlParams.get("country") || "Not Found";
+        phone.innerText = urlParams.get("phone") || "Not Found";
+    </script>
+</body>
+</html>
